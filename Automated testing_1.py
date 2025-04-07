@@ -23,7 +23,7 @@ driver.get("https://www.cathaybk.com.tw/cathaybk/")
 # 設置顯式等待
 wait = WebDriverWait(driver, 10)
 
-# 等待關鍵元素出現（以 .menu-mb-btn 為例）
+# 等待關鍵元素出現
 wait = WebDriverWait(driver, 15)
 wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "div.aem-container")))
 
